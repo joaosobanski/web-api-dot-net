@@ -13,4 +13,7 @@ dotnet ef migrations add InitialCreation
 
 dotnet ef database update
 
+# Criar outra migration para adicionar alteracoes
+dotnet ef migrations add <nome-migration>
 
+dotnet ef database update
