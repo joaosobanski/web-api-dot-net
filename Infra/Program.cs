@@ -11,17 +11,14 @@ class Program
 
         using( var ctx =  new DataContext())
         {
-
-            var category = new Category()
+            ctx.Users.Add(new User()
             {
-                Name = "Primeira Categoria",
-                Slug = ""
-            };
-
-            ctx.Categories.Add(category);
-
+                Name = "Joao",
+                Email = "joao@email",
+                PasswordHash = "1234",
+                Slug = "joao"
+            });
             ctx.SaveChanges();
-
         }
 
     }

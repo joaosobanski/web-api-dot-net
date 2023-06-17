@@ -21,5 +21,10 @@ public class Post
 
     public DateTime LastUpdateDate { get; set; }
 
+    public Category Category { get; set; }
+
+    public User Author { get; set; }
+
+    public List<Tag> Tags { get; set; }
 }
 

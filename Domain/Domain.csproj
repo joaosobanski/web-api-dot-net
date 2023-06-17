@@ -13,4 +13,8 @@
   <ItemGroup>
     <Folder Include="Models\" />
   </ItemGroup>
+  <ItemGroup>
+    <Compile Remove="Models\UserRole.cs" />
+    <Compile Remove="Models\PostTag.cs" />
+  </ItemGroup>
 </Project>

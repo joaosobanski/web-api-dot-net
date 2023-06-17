@@ -14,4 +14,10 @@
   <ItemGroup>
     <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
+  <ItemGroup>
+    <None Remove="Mappings\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Mappings\" />
+  </ItemGroup>
 </Project>
