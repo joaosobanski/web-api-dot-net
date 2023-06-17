@@ -16,8 +16,11 @@ class Program
                 Name = "Joao",
                 Email = "joao@email",
                 PasswordHash = "1234",
-                Slug = "joao"
+                Slug = "joao",
+                Bio = "Dev Joao",
+                Image = "no image",
             });
+            
             ctx.SaveChanges();
         }
 
