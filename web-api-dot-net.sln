@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1705.7
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "web-api-dot-net", "web-api-dot-net\web-api-dot-net.csproj", "{77B0D197-534E-4B4E-BEAE-A381D55B66B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{A25C663B-B950-47BB-B170-ABCF96E7EC44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infra", "Infra\Infra.csproj", "{EF2D75A5-2DD2-4E8E-A42F-2AE1FF6D6B69}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{77B0D197-534E-4B4E-BEAE-A381D55B66B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77B0D197-534E-4B4E-BEAE-A381D55B66B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77B0D197-534E-4B4E-BEAE-A381D55B66B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77B0D197-534E-4B4E-BEAE-A381D55B66B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A25C663B-B950-47BB-B170-ABCF96E7EC44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A25C663B-B950-47BB-B170-ABCF96E7EC44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A25C663B-B950-47BB-B170-ABCF96E7EC44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A25C663B-B950-47BB-B170-ABCF96E7EC44}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF2D75A5-2DD2-4E8E-A42F-2AE1FF6D6B69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF2D75A5-2DD2-4E8E-A42F-2AE1FF6D6B69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF2D75A5-2DD2-4E8E-A42F-2AE1FF6D6B69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF2D75A5-2DD2-4E8E-A42F-2AE1FF6D6B69}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1FA559BA-EC7B-40FF-BA9E-13D0ACCF1DF9}
+	EndGlobalSection
+EndGlobal
